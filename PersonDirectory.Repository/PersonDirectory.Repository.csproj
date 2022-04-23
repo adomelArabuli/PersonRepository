@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonDirectory.Configuration\PersonDirectory.Configuration.csproj" />
+    <ProjectReference Include="..\PersonDirectory.Data\PersonDirectory.Data.csproj" />
+    <ProjectReference Include="..\PersonDirectory.Shared\PersonDirectory.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
